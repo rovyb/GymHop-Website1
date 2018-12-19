@@ -1,6 +1,6 @@
 .headerCenter {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: center;
 }
 
@@ -9,10 +9,39 @@
     flex: 0 1 auto;
     background-color: #ffffff;
     width: 50%;
+    order: 1;
 }
 
-.homeButton {
-    margin: auto;
-    background-color: rgba(130, 130, 131, 0.637)
-
+.headerButtons {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
+
+#homeButton {
+    background-color: #000000;
+    margin: 15px 10px 10px 10px;
+    width: 120px;
+    height: 40px;
+    border: none;
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    border-radius: 12%;
+    text-decoration: none;
+    font-size: 16px;
+}
+#AboutUs {
+    background-color: #000000; 
+    margin: 15px 10px 10px 10px;
+    width: 120px;
+    height: 40px;
+    border: none;
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    border-radius: 12%;
+    text-decoration: none;
+    font-size: 16px;
+}
+
