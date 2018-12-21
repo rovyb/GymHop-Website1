@@ -1,47 +1,45 @@
-.headerCenter {
+/*headerLogos*/
+.header {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+    flex-basis: initial;
+    height: 80px;
+    width: 100%;
+    background-color: black; 
 }
-
-.headerGymLogo {
-    margin: auto;
-    flex: 0 1 auto;
-    background-color: #ffffff;
-    width: 50%;
+.headerLogo {
+    display: flex;
     order: 1;
+    justify-content: flex-start;
+    align-items: center;
 }
-
-.headerButtons {
+#headerBunny {
     display: flex;
-    flex-flow: row wrap;
+    height: 75%;
+    margin-left: 5px;
+}
+#headerGymLogo {
+    display: flex;
+    margin-left: 10px;
+    height: 50px;
+}
+/*header menus*/
+.headerMenu {
+    display: flex;
+    justify-content: space-evenly;
+    order: 2;
+    align-items: center;
+    margin-left: auto;
+}
+.headerButton {
+    display: flex;
     justify-content: center;
-}
-
-#homeButton {
-    background-color: #000000;
-    margin: 15px 10px 10px 10px;
-    width: 120px;
-    height: 40px;
-    border: none;
-    color: white;
-    text-align: center;
-    font-family: cursive;
-    border-radius: 12%;
-    text-decoration: none;
+    background-color: white;
+    color: black;
     font-size: 16px;
-}
-#AboutUs {
-    background-color: #000000; 
-    margin: 15px 10px 10px 10px;
-    width: 120px;
-    height: 40px;
-    border: none;
-    color: white;
+    height: 50%;
+    width: 100%;
+    margin-left: 15px;
+    margin-right: 20px;
+    border-radius: 5px;
     text-align: center;
-    font-family: cursive;
-    border-radius: 12%;
-    text-decoration: none;
-    font-size: 16px;
 }
-
